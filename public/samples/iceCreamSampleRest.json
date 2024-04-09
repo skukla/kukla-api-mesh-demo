@@ -1,0 +1,182 @@
+{
+  "OrderManagementAPI": [
+    {
+      "sku": "10057",
+      "location": "Warehouse C",
+      "quantity": 34
+    },
+    {
+      "sku": "10056",
+      "location": "Warehouse B",
+      "quantity": 10
+    },
+    {
+      "sku": "10116",
+      "location": "Warehouse D",
+      "quantity": 2
+    },
+    {
+      "sku": "10058",
+      "location": "Warehouse A",
+      "quantity": 10
+    },
+    {
+      "sku": "10059",
+      "location": "Warehouse D",
+      "quantity": 10
+    },
+    {
+      "sku": "10104",
+      "location": "Warehouse B",
+      "quantity": 5
+    },
+    {
+      "sku": "10055",
+      "location": "Warehouse A",
+      "quantity": 10
+    }
+  ],
+  "AdobeCommerceAPI": {
+    "products": {
+      "items": [
+        {
+          "name": "Chocolate Ice Cream",
+          "sku": "10057",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 4.95,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/c/h/chocolate-icecream.jpeg"
+          }
+        },
+        {
+          "name": "Vanilla Ice Cream",
+          "sku": "10056",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 5.45,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/v/a/vanilla-icecream.jpeg"
+          }
+        },
+        {
+          "name": "Hand Packed Ice Cream",
+          "sku": "10116",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 5.99,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/a/d/adobestock_40117273.jpeg"
+          }
+        },
+        {
+          "name": "Strawberry Ice Cream",
+          "sku": "10058",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 5.85,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/s/t/strawberry-icecream.jpeg"
+          }
+        },
+        {
+          "name": "Pistachio Ice Cream",
+          "sku": "10059",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 10.90,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/p/i/pistachio-icecream.jpeg"
+          }
+        },
+        {
+          "name": "Smoked Salmon Cream Cheese Pizza",
+          "sku": "10104",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 16.99,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/s/m/smoked-salmon-cream-cheese-pizza.jpg"
+          }
+        },
+        {
+          "name": "Fresh Sour Cream",
+          "sku": "10055",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 3.65,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/a/d/adobestock_101427316.jpeg"
+          }
+        }
+      ]
+    }
+  },
+  "ERPAPI": {
+    "records": [
+      {
+        "sku": "10057",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10056",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10116",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10058",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10059",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10104",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10055",
+        "discountPrice": 2.95
+      }
+    ]
+  }
+}

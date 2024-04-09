@@ -1,0 +1,110 @@
+{
+  "OrderManagementAPI": [
+    {
+      "sku": "10053",
+      "location": "Warehouse D",
+      "quantity": 34
+    },
+    {
+      "sku": "10054",
+      "location": "Warehouse A",
+      "quantity": 21
+    },
+    {
+      "sku": "10051",
+      "location": "Warehouse D",
+      "quantity": 34
+    },
+    {
+      "sku": "10055",
+      "location": "Warehouse D",
+      "quantity": 34
+    }
+  ],
+  "AdobeCommerceAPI": {
+    "products": {
+      "items": [
+        {
+          "name": "2% Milk",
+          "sku": "10053",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 3.35,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/e96accd33964a670ce9532408a474b4e/2/p/2percent-milk.jpeg"
+          }
+        },
+        {
+          "name": "Skim Milk",
+          "sku": "10054",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 5.70,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/e96accd33964a670ce9532408a474b4e/s/k/skim-milk.jpg"
+          }
+        },
+        {
+          "name": "Fresh Whole Milk",
+          "sku": "10051",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 5.70,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/e96accd33964a670ce9532408a474b4e/w/h/whole-milk.jpeg"
+          }
+        },
+        {
+          "name": "Fresh Sour Cream",
+          "sku": "10055",
+          "price_range": {
+            "minimum_price": {
+              "regular_price": {
+                "value": 3.65,
+                "currency": "USD"
+              }
+            }
+          },
+          "image": {
+            "url": "https://com753.adobedemo.com/media/catalog/product/cache/69e8ede0dcbc86505e5c72ba080db762/a/d/adobestock_101427316.jpeg"
+          }
+        }
+      ]
+    }
+  },
+  "ERPAPI": {
+    "records": [
+      {
+        "sku": "10053",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10054",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10051",
+        "discountPrice": 2.95
+      },
+      {
+        "sku": "10055",
+        "discountPrice": 2.95
+      }
+    ]
+  }
+}

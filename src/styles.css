@@ -1,10 +1,21 @@
 .App {
-  font-family: sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
 h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #333;
   padding: 20px;
+  margin-left: 80px;
+}
+
+p {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 img {
@@ -13,7 +24,7 @@ img {
 }
 
 ul {
-  display:grid;
+  display: grid;
   grid-template-columns: 300px 300px 300px;
   grid-template-rows: 600px;
   list-style: none;
@@ -24,17 +35,18 @@ li {
 }
 
 button {
-  border-radius: 12px;
-  background-color: blue;
+  border-radius: 2.4rem;
+  background-color: black;
   color: white;
   width: 215px;
   height: 33px;
   margin-right: 20px;
   font-weight: 550;
+  border-style: none;
 }
 
 a:link {
-  color:  rgb(178 178 178);
+  color: rgb(178 178 178);
   text-decoration: none;
 }
 
@@ -43,10 +55,9 @@ a:link {
   margin-bottom: 0px;
 }
 .header {
-  background-image: url(https://developer.adobe.com/graphql-mesh-gateway/static/d196a8cfb9d567947b40b894f4a86e65/fab06/home-bg.webp);
   color: white;
   height: 125px;
-  width: 900px;
+  width: 960px;
 }
 
 .sub-header {
@@ -57,7 +68,7 @@ a:link {
 
 .item-name {
   font-weight: 600;
-  font-family: sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
   height: 20px;
 }
 
@@ -71,7 +82,7 @@ a:link {
 
 .price {
   display: inline-block;
-  width: 30px;
+  width: 60px;
 }
 
 .done {
@@ -97,13 +108,12 @@ input {
   color: white;
   width: 500px;
   height: 900px;
-  overflow: scroll;  
-  margin-right: 20px
+  overflow: scroll;
+  margin-right: 20px;
 }
 
 .results {
   display: flex;
-  justify-content:space-between;
 }
 
 .code-toggle {
@@ -112,4 +122,8 @@ input {
   cursor: pointer;
   float: right;
   margin: 10px 10px;
+}
+
+div[role="tooltip"] {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

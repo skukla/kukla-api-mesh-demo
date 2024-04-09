@@ -1,4 +1,4 @@
-const SEARCH_TERM = "earrings";
+const SEARCH_TERM = "scarf";
 const NUMBER_OF_RESULTS = 6;
 
 const query = {
@@ -28,6 +28,6 @@ const query = {
         }
       }
     }
-  }`
+  }`,
 };
-export default query;
+export { SEARCH_TERM, query };

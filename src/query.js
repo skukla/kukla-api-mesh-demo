@@ -1,4 +1,4 @@
-const SEARCH_TERM = "scarf";
+const SEARCH_TERM = "earrings";
 const NUMBER_OF_RESULTS = 6;
 
 const query = {

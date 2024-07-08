@@ -5,9 +5,8 @@ import { Tooltip } from "react-tooltip";
 import { SEARCH_TERM, query } from "./query.js";
 import CodeSidebar from "./codeSidebar";
 
-const API_MESH_URL =
-  "https://graph.adobe.io/api/96f6da72-39f8-4542-ae20-ef6ee27a0b54/graphql?api_key=20fa505203b045ebaac2909cd6e2cefe";
-
+const REMOTE_API_MESH = "https://graph.adobe.io/api/96f6da72-39f8-4542-ae20-ef6ee27a0b54/graphql?api_key=20fa505203b045ebaac2909cd6e2cefe";
+const LOCAL_API_MESH = "http://localhost:9000/graphql";
 const SOURCE_1_NAME = "Source: Adobe Commerce";
 const SOURCE_2_NAME = "Source: ERP";
 const SOURCE_3_NAME = "Source: OMS";
@@ -33,11 +32,11 @@ class APIMeshExample extends React.Component {
       method: "post",
       body: JSON.stringify(query),
       headers: {
-        "content-type": "application/json",
+        "content-type": "application/json"
       },
     };
 
-    fetch(API_MESH_URL, options)
+    fetch(REMOTE_API_MESH, options)
       .then(response => response.json())
       .then(res => {
         console.log(res);
